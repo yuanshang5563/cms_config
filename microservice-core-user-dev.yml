@@ -10,8 +10,6 @@ eureka:
     fetch-registry: true #是否检索服务  
     #healthcheck:
       #enable: true
-    service-url:
-      defaultZone: http://admin:pass1234@localhost:8761/eureka/
 feign:
   hystrix:
     enable: true     
